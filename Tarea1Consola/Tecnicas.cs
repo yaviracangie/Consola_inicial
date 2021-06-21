@@ -15,5 +15,21 @@ namespace Tarea1Consola
         public string Siensay { get; set; }
         public string AtaqueMistico { get; set; }
 
+        public string Ataques()
+        {
+            var Siensay =  10;
+                Masenco= "costillas";
+                Habilidades = "GolpeDargon";
+            var reduccionEnergia =  Siensay -5;
+            return $"Tengo {Habilidades}, Me ataco en las costillas con el actaque de:{Masenco}";
+
+        }
+
+        public string Habilidad(string Habilidades)
+        {
+            return $"Mi Habilidad mas fuertees de :{Habilidades} con una tecnica de:{BolaEncarcelamiento}";
+        }
+
+        
     }
 }

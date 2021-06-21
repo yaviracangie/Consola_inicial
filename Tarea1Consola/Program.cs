@@ -16,6 +16,7 @@ namespace Tarea1Consola
             Console.WriteLine("SI = 1\nNO = 0");
             int star = int.Parse(Console.ReadLine());
             if (star == 1)
+
                 //Registro de Usuario
                 Console.WriteLine("---------Procede a registrate---------- :");
            

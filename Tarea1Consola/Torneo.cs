@@ -19,5 +19,14 @@ namespace Tarea1Consola
         public string Localizacion { get; set; }
         public string Hora { get; set; }
 
+        public string Saludo()
+        {
+            return $"Bienvenido al torneo de las artes marciales{Nombre},la fecha en que se realizara el torneo es:{Fecha}";
+        }
+        public string Regla()
+        {
+            return $"Las reglas del torneo son:{Reglas},cada competidor tiene un tiempo de:{Tiempo}";
+        }
+
     }
 }
